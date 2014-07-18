@@ -11,7 +11,7 @@ gnu.org/licenses/gpl.html.
 def main():
     with open('vimrc') as f:
         settings = f.read()
-    with open('~/.vimrc') as vimrc:
+    with open('~/.vimrc', 'w+') as vimrc:
         vimrc.write(settings)
         print('done')
 
