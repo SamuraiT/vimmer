@@ -10,17 +10,17 @@ filetype on
 filetype indent on
 filetype plugin on
 set encoding=utf-8
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set wildmenu
 set expandtab
 set incsearch
 
-inoremap <C-j> <Down>
+inoremap <C-n> <Down>
 inoremap <C-k> <Up>
-inoremap <C-h> <Left>
-inoremap <C-l> <Right>
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
 inoremap <Leader>a <Home>
 inoremap <C-e> <End>
 inoremap <C-d> <Del>
